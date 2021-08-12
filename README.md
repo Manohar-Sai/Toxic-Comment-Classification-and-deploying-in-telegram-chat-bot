@@ -14,7 +14,7 @@ Given a group of sentences used as a part of commenting in online platforms,
 classify it as toxic or not. Toxicity of a comment can be presented in several
 categories - toxic, severe-toxic, obscene, threat, insult or identity-hate. Problem
 statement needs to classify it as either toxic or not and then classify the
-comment to which category(ies) it belongs to.
+comment to which category(ies) it belongs to. The dataset for the problem statement can be found [here](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data)
 
 ### Modelling and Evaluation
 - Multinomial Naive Bayes
@@ -26,8 +26,10 @@ comment to which category(ies) it belongs to.
 <img src="/Images/Architecture.jpeg" alt="Architecture of LSTM model" width="200"/>
 
 ### Results and Performance
-<img src="/Images/loss.png" alt="Architecture of LSTM model" width="500"/>
-<img src="/Images/accuracy.png" alt="Architecture of LSTM model" width="500"/>
+<p float="left">
+  <img src="/Images/loss.png" alt="Accuracy" width="500"/>
+  <img src="/Images/accuracy.png" alt="Loss" width="500"/>
+</p>
 
 ### Deployment - Chat Bot:
 We have deployed the current model in a chat bot in Telegram. It is called I’m
@@ -38,9 +40,6 @@ masks the message, i.e the toxic words.
 Some of the works of the bot are shown:
 
 <p float="left">
-  <img src="/Images/pic1_pixel_quite_black_portrait.png" width="500" />
-  <img src="/Images/pic1_pixel_quite_black_portrait.png" width="500" /> 
+  <img src="/Images/pic1_pixel_quite_black_portrait.png" alt="Test-1" width="500" />
+  <img src="/Images/pic1_pixel_quite_black_portrait.png" alt="Test-2" width="500" /> 
 </p>
-
-Dataset link here
-https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
