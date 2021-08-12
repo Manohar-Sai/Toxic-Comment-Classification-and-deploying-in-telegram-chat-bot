@@ -16,12 +16,17 @@ categories - toxic, severe-toxic, obscene, threat, insult or identity-hate. Prob
 statement needs to classify it as either toxic or not and then classify the
 comment to which category(ies) it belongs to.
 
-### Modelling
-Modelling and Evaluation
+### Modelling and Evaluation
 - Multinomial Naive Bayes
 - Logistic Regression
 - Linear SVC
 - LSTM
+
+### Architecture of LSTM
+
+### Results and Performance
+
+
 
 
 Dataset link here
