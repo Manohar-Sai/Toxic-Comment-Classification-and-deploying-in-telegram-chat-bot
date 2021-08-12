@@ -23,11 +23,24 @@ comment to which category(ies) it belongs to.
 - LSTM
 
 ### Architecture of LSTM
+<img src="/Images/Architecture.jpeg" alt="Architecture of LSTM model" width="200"/>
 
 ### Results and Performance
+<img src="/Images/loss.png" alt="Architecture of LSTM model" width="500"/>
+<img src="/Images/accuracy.png" alt="Architecture of LSTM model" width="500"/>
 
+### Deployment - Chat Bot:
+We have deployed the current model in a chat bot in Telegram. It is called I’m
+Seeing you bot (can be found [here](https://t.me/seeing_you_bot)). It finds the toxicity in chats and reports
+them if there is any toxicity in the message. It can be added to the groups in
+Telegram, where you need the feel of safety from abuse of others. Further it
+masks the message, i.e the toxic words.
+Some of the works of the bot are shown:
 
-
+<p float="left">
+  <img src="/Images/pic1_pixel_quite_black_portrait.png" width="500" />
+  <img src="/Images/pic1_pixel_quite_black_portrait.png" width="500" /> 
+</p>
 
 Dataset link here
 https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
